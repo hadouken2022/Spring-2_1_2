@@ -16,6 +16,7 @@ public class App {
                 (Cat) applicationContext.getBean("meow2");
         boolean comparation = bean == bean2;
         boolean comparationCats = catBean == catBean2;
+
         System.out.println(comparation);
         System.out.println(comparationCats);
     }
